@@ -1,0 +1,19 @@
+public class Driver {
+	public static final void main(String[] args) {
+		NameManager manager = new NameManager();
+		
+		manager.addName("M.Mickleson");
+		manager.addName ("Johnua Taylor Biggs");
+		manager.addName ("P.Smith");
+		manager.addName ("Peter Jonathan Smythton");
+		manager.addName ("P.Thompson");
+		
+		manager.printNames();
+		
+		System.out.println("\n");
+		
+		manager.removeLongNames();
+		
+		manager.printNames();
+	}
+}
